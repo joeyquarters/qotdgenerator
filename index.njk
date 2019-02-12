@@ -1,0 +1,9 @@
+{% extends "base.njk" %}
+
+{% block main %}
+  <h3 class="c-intro">Your question of the day is:</h3>
+  <div class="c-qotd">
+    <span class="c-qotd__text js-qotd"></span>
+    <noscript><span class="c-qotd__text">{{ questionList | random }}</span></noscript>
+  </div>
+{% endblock main %}

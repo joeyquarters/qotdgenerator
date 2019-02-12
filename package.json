@@ -1,0 +1,17 @@
+{
+  "name": "qotd-generator",
+  "version": "0.0.1",
+  "description": "A site that generates a \"question of the day\" for Crossfit classes",
+  "main": "index.njk",
+  "scripts": {
+    "build:templates": "eleventy",
+    "build:css": "cp main.css _site/main.css",
+    "build": "npm run clean && npm run build:templates && npm run build:css",
+    "clean": "rm -rf ./_site"
+  },
+  "author": "Joey Nichols <joeyquarters@gmail.com> (https://www.joeyquarters.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}

@@ -1,0 +1,8 @@
+<script>
+(function() {
+  const questionsList = {{ questionList | dump | safe }};
+  const qotd = document.querySelector('.js-qotd');
+  const question = questionsList[Math.floor(Math.random()*questionsList.length)];
+  qotd.textContent = question;
+})()
+</script>

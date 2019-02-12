@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question of the Day Generator</title>
+  <meta name="description" content="A simple random question generator for building community in Crossfit Boxes.">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="l-body">
+  {% include "site-header.njk" %}
+  <main class="c-main">{% block main %}{% endblock main %}</main>
+  {% include "site-footer.njk" %}
+  {% include "scripts.njk" %}
+</body>
+</html>
