@@ -12,6 +12,6 @@
   "author": "Joey Nichols <joeyquarters@gmail.com> (https://www.joeyquarters.com)",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.8.3"
   }
 }
