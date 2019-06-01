@@ -8,7 +8,7 @@
   },
   "main": "index.njk",
   "scripts": {
-    "build:templates": "eleventy",
+    "build:templates": "npx eleventy",
     "build:css": "cp main.css _site/main.css",
     "build": "npm run clean && npm run build:templates && npm run build:css",
     "clean": "rm -rf ./_site"
