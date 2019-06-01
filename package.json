@@ -2,6 +2,10 @@
   "name": "qotd-generator",
   "version": "0.0.1",
   "description": "A site that generates a \"question of the day\" for Crossfit classes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeyquarters/qotdgenerator"
+  },
   "main": "index.njk",
   "scripts": {
     "build:templates": "eleventy",
